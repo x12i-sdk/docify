@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:02:02.752426+00:00",
+    "validatedAt": "2026-10-24T14:50:33.603033+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "9a75a447a98f865886e460231771f6282850f91cf6e038c96af29f424e7a295a",
-    "manifestSha256": "0d7b35daa53757c0e1182b5d599673adc538c6573950ec68cb66d526a1ae99bf"
+    "manifestSha256": "660922f04bc9c3893accd7e9c3480ce857ca33f5f37718b0d6df93ed02bd43f7"
   },
   "npmPackages": [
     "@x12i/docify-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/docify": {
+      "packageVersion": "1.7.0",
+      "title": "Read a guide through the historical pre-wired Docify SDK",
+      "entrypoint": "src/docify-example.mjs",
+      "command": "npm run example:docify",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "8031eafd22944599eb0ba9ef9a4c5eeb8be3c917923ac0c511badf2eb7564ae2",
+      "manifestSha256": "660922f04bc9c3893accd7e9c3480ce857ca33f5f37718b0d6df93ed02bd43f7",
+      "validatedAt": "2026-10-24T14:50:33.603033+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/docify-example.mjs": "8031eafd22944599eb0ba9ef9a4c5eeb8be3c917923ac0c511badf2eb7564ae2",
+    "src/index.mjs": "9a75a447a98f865886e460231771f6282850f91cf6e038c96af29f424e7a295a"
+  }
 }

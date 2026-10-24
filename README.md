@@ -29,3 +29,20 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [npm package](https://www.npmjs.com/package/@x12i/docify-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/docify runtime example
+
+Docify framework CLI + dogfood knowledge SDK. Install as a devDependency.
+
+Read a guide through the historical pre-wired Docify SDK. This example consumes `@x12i/docify@1.7.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:docify
+```
+
+Source: [`src/docify-example.mjs`](src/docify-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime example scope
+
+The runtime consumer uses local synthetic data. It does not invoke a model, connect to MongoDB, or publish a package. Any temporary workspace is created and removed by the example. Documentation and runtime examples have separate commands and are validated separately.
