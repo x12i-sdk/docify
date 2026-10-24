@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/docify-docs",
+  "packageVersion": "1.7.2",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/docify-docs",
+  "usageRepository": "https://github.com/x12i-sdk/docify",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:02:02.752426+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "9a75a447a98f865886e460231771f6282850f91cf6e038c96af29f424e7a295a",
+    "manifestSha256": "0d7b35daa53757c0e1182b5d599673adc538c6573950ec68cb66d526a1ae99bf"
+  },
+  "npmPackages": [
+    "@x12i/docify-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
